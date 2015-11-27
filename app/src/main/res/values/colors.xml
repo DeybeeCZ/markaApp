@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorFondo">#23365e</color>
+    <color name="colorBlanco">#FFFFFF</color>
+
+    <color name="colorAnalogoUno">#32226B</color>
+    <color name="colorAnalogoDos">#262A75</color>
+    <color name="colorAnalogoTres">#23365E</color>
+    <color name="colorAnalogoCuatro">#265475</color>
+    <color name="colorAnalogoCinco">#22606B</color>
+
+    <color name="colorMonoUno">#3F62AA</color>
+    <color name="colorMonoDos">#505D77</color>
+    <color name="colorMonoTres">#23365E</color>
+    <color name="colorMonoCuatro">#7385AA</color>
+    <color name="colorMonoCinco">#5C8EF7</color>
+</resources>

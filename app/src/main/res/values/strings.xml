@@ -1,0 +1,25 @@
+<resources>
+    <string name="logo">Marka</string>
+    <string name="app_name">MarkPlace</string>
+    <string name="labelUsuario">Usuario</string>
+    <string name="labelPassword">Contraseña</string>
+    <string name="labelConfirmPassword">Confirma contraseña</string>
+    <string name="labelEmail">Email</string>
+    <string name="labelBtnEntrar">Ingresar</string>
+    <string name="labelBtnReset">Reiniciar Contraseña</string>
+    <string name="labelBtnRegistrate">Registrarme</string>
+    <string name="labelBtnSearch">Buscar</string>
+    <string name="labelBtnRegisterTeam">Registrar equipo</string>
+    <string name="labelOlvPass">¿Olvidaste la contraseña?</string>
+    <string name="lblRegresarLogin">Iniciar Sesión</string>
+    <string name="labelLogFb">Registrate</string>
+    <string name="labelLogGoogle">¿Olvidaste tu contraseña?</string>
+    <string name="labelEquipo">Nombre de tu equipo</string>
+    <string name="tituloRecuperar">Recupera Contraseña</string>
+    <string name="tituloRegistrate">Registrate</string>
+    <string name="tituloSearch">Equipos</string>
+    <string name="descRecuperar">Ingresa tu email para poder reiniciar tu contraseña</string>
+    <string name="descRegistrate">Registrate para poder buscar tu equipo o crear uno</string>
+    <string name="descSearch">Ingresa el nombre de tu equipo o registra uno</string>
+
+</resources>
