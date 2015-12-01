@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <com.facebook.drawee.view.SimpleDraweeView
-                android:id="@+id/my_image_view"
+                android:id="@+id/search_image_view"
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_gravity="center"
@@ -26,16 +26,26 @@
                 fresco:roundWithOverlayColor="@color/colorFondo"
                 fresco:roundingBorderWidth="1dp"
                 fresco:roundingBorderColor="@color/colorBlanco"
-                />
-            <com.markplace.element.LogoTextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/logo"
-                android:textSize="40dp"
                 android:layout_marginTop="@dimen/marginLogoTopBottom"
                 android:layout_marginBottom="@dimen/marginLogoTopBottom"
+                />
+
+            <com.markplace.element.LogoBoldTextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/logo"
+                android:textSize="40dp"
+                android:textColor="@color/colorNegro"
+                android:layout_gravity="bottom"
+                android:gravity="center"/>
+            <com.markplace.element.LogoTextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/logo"
+                android:textSize="40dp"
                 android:textColor="@color/colorBlanco"
-                android:layout_gravity="center|bottom"/>
+                android:layout_gravity="bottom"
+                android:gravity="center"/>
         </FrameLayout>
         
         <TextView

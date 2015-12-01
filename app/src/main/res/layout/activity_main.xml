@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelUsuario"
             android:textColorHint="@color/colorBlanco"
+            android:textColorHighlight="@color/colorBlanco"
             android:layout_marginBottom="@dimen/marginTextTopBottom"
             android:paddingBottom="@dimen/paddingBottonText"
             />
@@ -34,6 +35,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelPassword"
             android:textColorHint="@color/colorBlanco"
+            android:textColorHighlight="@color/colorBlanco"
             android:paddingBottom="@dimen/paddingBottonText"
             android:layout_marginBottom="@dimen/marginTextTopBottom"/>
         <Button
@@ -52,7 +54,7 @@
         android:layout_gravity="bottom"
         >
         <TextView
-            android:id="@+id/main_lbl_logFb"
+            android:id="@+id/main_lbl_register"
             android:layout_width="@dimen/logwidth"
             android:layout_height="@dimen/logHeight"
             android:layout_weight="@integer/logWeight"
@@ -64,7 +66,7 @@
             android:layout_height="@dimen/logHeight"
             android:background="@color/colorPrimary"/>
         <TextView
-            android:id="@+id/main_lbl_logGoogle"
+            android:id="@+id/main_lbl_reset"
             android:layout_width="@dimen/logwidth"
             android:layout_height="@dimen/logHeight"
             android:layout_weight="@integer/logWeight"
