@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelUsuario"
             android:textColorHint="@color/colorBlanco"
-            android:textColorHighlight="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
             android:layout_marginBottom="@dimen/marginTextTopBottom"
             android:paddingBottom="@dimen/paddingBottonText"
             />
@@ -33,9 +33,10 @@
             android:id="@+id/main_txt_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/labelPassword"
             android:textColorHint="@color/colorBlanco"
-            android:textColorHighlight="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
             android:paddingBottom="@dimen/paddingBottonText"
             android:layout_marginBottom="@dimen/marginTextTopBottom"/>
         <Button

@@ -16,13 +16,11 @@
             android:layout_height="wrap_content">
             <com.facebook.drawee.view.SimpleDraweeView
                 android:id="@+id/search_image_view"
-                android:layout_width="130dp"
-                android:layout_height="130dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
                 fresco:placeholderImage="@drawable/userdefault"
-                fresco:roundedCornerRadius="5dp"
-                fresco:roundBottomLeft="false"
-                fresco:roundBottomRight="false"
+                fresco:roundedCornerRadius="60dp"
                 fresco:roundWithOverlayColor="@color/colorFondo"
                 fresco:roundingBorderWidth="1dp"
                 fresco:roundingBorderColor="@color/colorBlanco"

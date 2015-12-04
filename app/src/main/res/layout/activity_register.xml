@@ -40,6 +40,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelUsuario"
             android:textColorHint="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
             android:layout_marginBottom="@dimen/marginTextTopBottom"
             android:paddingBottom="@dimen/paddingBottonText"
             />
@@ -49,6 +50,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelEmail"
             android:textColorHint="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
+            android:inputType="textEmailAddress"
             android:layout_marginBottom="@dimen/marginTextTopBottom"
             android:paddingBottom="@dimen/paddingBottonText"
             />
@@ -58,6 +61,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelPassword"
             android:textColorHint="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
+            android:inputType="textPassword"
             android:paddingBottom="@dimen/paddingBottonText"
             android:layout_marginBottom="@dimen/marginTextTopBottom"/>
         <EditText
@@ -66,6 +71,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/labelConfirmPassword"
             android:textColorHint="@color/colorBlanco"
+            android:textColor="@color/colorBlanco"
+            android:inputType="textPassword"
             android:paddingBottom="@dimen/paddingBottonText"
             android:layout_marginBottom="@dimen/marginTextTopBottom"/>
         <Button

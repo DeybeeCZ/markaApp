@@ -21,9 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecoveryActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".RegisterActivity" android:screenOrientation="landscape"/>
-        <activity android:name=".SearchActivity" android:screenOrientation="landscape"/>
+        <activity android:name=".RecoveryActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".SearchActivity"/>
     </application>
 
 </manifest>

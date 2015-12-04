@@ -31,18 +31,32 @@ public class MainActivity extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String txtUsuario=usuario.getText().toString().trim();
-                String txtPassword=password.getText().toString().trim();
-                if(txtUsuario.isEmpty() || txtPassword.isEmpty()){
-                   if (txtUsuario.isEmpty()){
-                       usuario.setError("El campo usuario es requerido");
-                   }else{
-                       password.setError("El campo password es requerido");
-                   }
-                }else{
-                    Intent intent= new Intent(MainActivity.this,SearchActivity.class);
+                String txtUsuario = usuario.getText().toString().trim();
+                String txtPassword = password.getText().toString().trim();
+                if (txtUsuario.isEmpty() || txtPassword.isEmpty()) {
+                    if (txtUsuario.isEmpty()) {
+                        usuario.setError("El campo usuario es requerido");
+                    } else {
+                        password.setError("El campo password es requerido");
+                    }
+                } else {
+                    Intent intent = new Intent(MainActivity.this, SearchActivity.class);
                     startActivity(intent);
                 }
+            }
+        });
+        registrar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+        resetear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, RecoveryActivity.class);
+                startActivity(intent);
             }
         });
     }
