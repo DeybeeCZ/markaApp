@@ -5,6 +5,8 @@
     android:versionCode="1"
     >
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <uses-sdk android:minSdkVersion="1" android:maxSdkVersion="23"/>
     <application
         android:name="com.markplace.application.Configuration"
@@ -14,16 +16,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".RecoveryActivity"/>
         <activity android:name=".RegisterActivity"/>
         <activity android:name=".SearchActivity"/>
+        <activity android:name=".ContentActivity"/>
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="cuyvlcJn6JrtiOpaug8fiVVSWGZkcvuLOLUP2Nck" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="kdi0Rng0oLxtIFbOPTlksdTEiN1VK3KMBrywphlR" />
     </application>
 
 </manifest>

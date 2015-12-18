@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.markplace.application.Configuration;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -40,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
                         password.setError("El campo password es requerido");
                     }
                 } else {
-                    Intent intent = new Intent(MainActivity.this, SearchActivity.class);
+                    //Configuration.user.getUserbyEmail(txtUsuario);
+                    //Toast.makeText(getApplicationContext(),"llega aqui",Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, ContentActivity.class);
                     startActivity(intent);
                 }
             }

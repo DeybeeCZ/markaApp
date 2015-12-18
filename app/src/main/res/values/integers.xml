@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <integer name="logWeight">1</integer>
+    <integer name="recoveryWeight">1</integer>
+    <integer name="menuWeight">9</integer>
 </resources>

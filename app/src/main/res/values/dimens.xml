@@ -5,10 +5,21 @@
     <dimen name="logoSize">80dp</dimen>
     <dimen name="logHeight">30dp</dimen>
     <dimen name="logwidth">0dp</dimen>
+    <dimen name="menuTopwidth">0dp</dimen>
+    <dimen name="marginLeftTitleMenuTop">10dp</dimen>
     <dimen name="separadorwidth">1dp</dimen>
     <dimen name="logoWidth">195dp</dimen>
     <dimen name="logoHeight">124dp</dimen>
-    <dimen name="marginLogoTopBottom">40dp</dimen>
+    <dimen name="marginLogoTopBottom">35dp</dimen>
     <dimen name="marginTextTopBottom">15dp</dimen>
+    <dimen name="marginIcoTopBottom">10dp</dimen>
     <dimen name="paddingBottonText">18dp</dimen>
+    <dimen name="paddingMenuTop">10dp</dimen>
+    <dimen name="fontTitleTop">18dp</dimen>
+
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="slidingmenu_with_res">260dp</dimen>
+
 </resources>

@@ -8,4 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="inputText" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:layout_marginBottom">@dimen/marginTextTopBottom</item>
+        <item name="android:paddingBottom">@dimen/paddingBottonText</item>
+        
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/logo</item>
+        <item name="android:textSize">@dimen/logoSize</item>
+        <item name="android:layout_marginTop">@dimen/marginLogoTopBottom</item>
+        <item name="android:layout_marginBottom">@dimen/marginLogoTopBottom</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:gravity">center</item>
+    </style>
+
 </resources>

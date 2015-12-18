@@ -11,34 +11,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <com.markplace.element.LogoTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/logo"
-            android:textSize="80dp"
-            android:layout_marginTop="@dimen/marginLogoTopBottom"
-            android:layout_marginBottom="@dimen/marginLogoTopBottom"
-            android:textColor="@color/colorBlanco"
-            android:gravity="center"/>
+            style="@style/logo"/>
         <EditText
             android:id="@+id/main_txt_usuario"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/labelUsuario"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"
-            android:paddingBottom="@dimen/paddingBottonText"
+            style="@style/inputText"
             />
         <EditText
             android:id="@+id/main_txt_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="@string/labelPassword"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
-            android:paddingBottom="@dimen/paddingBottonText"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"/>
+            style="@style/inputText"/>
         <Button
             android:id="@+id/main_btn_login"
             android:layout_width="match_parent"
@@ -57,22 +40,18 @@
         <TextView
             android:id="@+id/main_lbl_register"
             android:layout_width="@dimen/logwidth"
-            android:layout_height="@dimen/logHeight"
+            android:layout_height="wrap_content"
             android:layout_weight="@integer/logWeight"
             android:text="@string/labelLogFb"
             android:textColor="@color/colorBlanco"
             android:gravity="center"/>
-        <View
-            android:layout_width="@dimen/separadorwidth"
-            android:layout_height="@dimen/logHeight"
-            android:background="@color/colorPrimary"/>
         <TextView
             android:id="@+id/main_lbl_reset"
             android:layout_width="@dimen/logwidth"
-            android:layout_height="@dimen/logHeight"
-            android:layout_weight="@integer/logWeight"
+            android:layout_height="wrap_content"
+            android:layout_weight="@integer/recoveryWeight"
             android:text="@string/labelLogGoogle"
             android:textColor="@color/colorBlanco"
-            android:gravity="center_horizontal|center_vertical"/>
+            android:gravity="center"/>
     </LinearLayout>
 </FrameLayout>

@@ -21,5 +21,7 @@
     <string name="descRecuperar">Ingresa tu email para poder reiniciar tu contraseña</string>
     <string name="descRegistrate">Registrate para poder buscar tu equipo o crear uno</string>
     <string name="descSearch">Ingresa el nombre de tu equipo o registra uno</string>
+    <string name="required">El campo es requerido</string>
+    <string name="passFail">Los campos no coinciden</string>
 
 </resources>

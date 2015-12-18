@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/abstractblue">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/userdefault"
+        android:layout_marginTop="@dimen/marginTextTopBottom"
+        android:layout_marginLeft="@dimen/marginTextTopBottom"
+        android:layout_marginBottom="@dimen/marginTextTopBottom"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deybee J. Chávez Zapata"
+        android:layout_marginLeft="@dimen/marginTextTopBottom"
+        android:layout_marginBottom="@dimen/marginTextTopBottom"
+        android:textColor="@color/colorBlanco"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginTextTopBottom"
+        android:layout_marginBottom="@dimen/marginTextTopBottom"
+        ></Spinner>
+</LinearLayout>
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

@@ -11,14 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <com.markplace.element.LogoTextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/logo"
-            android:textSize="80dp"
-            android:layout_marginTop="@dimen/marginLogoTopBottom"
-            android:layout_marginBottom="@dimen/marginLogoTopBottom"
-            android:textColor="@color/colorBlanco"
-            android:gravity="center"/>
+            style="@style/logo"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,47 +29,27 @@
             android:textColor="@color/colorBlanco"/>
         <EditText
             android:id="@+id/register_txt_usuario"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/labelUsuario"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"
-            android:paddingBottom="@dimen/paddingBottonText"
+            style="@style/inputText"
             />
         <EditText
             android:id="@+id/register_txt_email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/labelEmail"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
-            android:inputType="textEmailAddress"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"
-            android:paddingBottom="@dimen/paddingBottonText"
+            style="@style/inputText"
             />
         <EditText
             android:id="@+id/register_txt_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:hint="@string/labelPassword"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
             android:inputType="textPassword"
-            android:paddingBottom="@dimen/paddingBottonText"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"/>
+            style="@style/inputText"/>
         <EditText
-            android:id="@+id/regiter_txt_confirm_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:id="@+id/register_txt_confirm_password"
             android:hint="@string/labelConfirmPassword"
-            android:textColorHint="@color/colorBlanco"
-            android:textColor="@color/colorBlanco"
             android:inputType="textPassword"
-            android:paddingBottom="@dimen/paddingBottonText"
-            android:layout_marginBottom="@dimen/marginTextTopBottom"/>
+            style="@style/inputText"
+            />
         <Button
-            android:id="@+id/main_btn_login"
+            android:id="@+id/register_btn_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/labelBtnRegistrate"
